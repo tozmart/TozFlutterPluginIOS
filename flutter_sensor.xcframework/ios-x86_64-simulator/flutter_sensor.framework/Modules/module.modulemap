@@ -1,0 +1,11 @@
+framework module flutter_sensor {
+  umbrella header "flutter_sensor-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_sensor.Swift {
+    header "flutter_sensor-Swift.h"
+    requires objc
+}
