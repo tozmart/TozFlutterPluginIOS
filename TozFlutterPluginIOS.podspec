@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'TozFlutterPluginIOS'
-  s.version               = '0.0.16'
+  s.version               = '0.0.17'
   s.summary               = 'Flutter module'
   s.description           = 'Flutter module - TozFlutterPluginIOS'
   s.homepage              = 'https://github.com/tozmart/TozFlutterPluginIOS'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.swift_version         = "5.0"
   s.pod_target_xcconfig   = {'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.vendored_frameworks   = 'flutter_sensor.xcframework','permission_handler.xcframework','sensor.xcframework','shared_preferences.xcframework'
-  s.dependency 'TozFlutter'
+  s.dependency 'TozFlutter', '0.0.4'
 end
