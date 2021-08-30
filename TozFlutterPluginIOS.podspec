@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'TozFlutterPluginIOS'
-  s.version               = '0.0.11'
+  s.version               = '0.0.14'
   s.summary               = 'Flutter module'
   s.description           = 'Flutter module - TozFlutterPluginIOS'
   s.homepage              = 'https://github.com/tozmart/TozFlutterPluginIOS'
