@@ -1,0 +1,11 @@
+framework module native_string {
+  umbrella header "native_string-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module native_string.Swift {
+    header "native_string-Swift.h"
+    requires objc
+}
